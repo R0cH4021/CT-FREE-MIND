@@ -1,0 +1,25 @@
+name: fff  # Substitua pelo nome do seu projeto
+description: A new Flutter project
+
+publish_to: 'none' # remove this line if you want to publish to pub.dev
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  screens: ^2.5.0
+  shared_preferences: ^2.1.0  # Adicione a dependência do shared_preferences aqui
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependencies:
+  firebase_core: ^2.27.0
+
+flutter:
+  uses-material-design: true
